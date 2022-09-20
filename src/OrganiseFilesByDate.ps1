@@ -1,6 +1,6 @@
 param(
-    $DestinationFolder = $PSScriptRoot,
-    $SourceFolders = 'D:\ServerFolders\PhotoArchive',
+    $DestinationFolder = 'D:\ServerFolders\Photos',
+    $SourceFolders = 'D:\ServerFolders\NewPhotos',
     #(Join-Path $PSScriptRoot '2016'),
     $FolderFormat = "yyyy\\MM MMM",
     $FileNameDateRegex = "(\d{4}-\d{2}-\d{2}|\d{8})",
